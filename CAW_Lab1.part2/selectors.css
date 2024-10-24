@@ -1,0 +1,103 @@
+/* 1 */
+h2 {
+    color: purple;
+}
+
+/* 2 */
+body {
+    background-color: #bdc3c7;
+}
+
+/* 3 */
+h1 {
+    color: #9b59b6;
+}
+
+/* 4 */
+h2 {
+    color: orange;
+}
+
+/* La couleur bleue l'emporte sur le rouge car elle est déclarée apres */
+
+ /* 5 */
+li {
+    color: blue;
+}
+
+/* 6 */
+p {
+    background-color: yellow;
+}
+
+/* 7 */
+input {
+    border: 3px solid red;
+}
+
+/* 8 */
+.hello {
+    background-color: pink;
+}
+
+/* 9 */
+#special {
+    border: 2px solid blue;
+}
+
+/* 10 */
+div p {
+    font-size: 25px;
+}
+
+/* 11 */
+input[type="text"] {
+    background-color: gray;
+}
+
+/* 12 */
+div:nth-of-type(3) p {
+    background-color: pink;
+}
+
+/* 13 */
+/*sélectionne un élément spécifique en fonction de son ordre parmi d'autres éléments similaires*/
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 5px solid white;
+}
+
+/* 14 */
+div:nth-of-type(3) em {
+    color: white;
+    font-size: 20px;
+}
+
+/* 15 */
+/* sauf les element checked */
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+
+/* 16 */
+/* majuscule */
+label {
+    text-transform: uppercase;
+}
+
+/* 17 */
+/* la premiére lettre en vert  */
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+/* 18 */
+h1:hover {
+    color: red;
+}
+/* 19 */
+/* visité */
+a:visited {
+    color: gray;
+}
+

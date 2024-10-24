@@ -1,0 +1,54 @@
+*{
+    padding: 50px; /*'espace entre le contenu d'un élément et ses bordures.*/
+    background-color: #e8eae8;
+    color: #5d665b;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small; 
+    line-height: 180%; /*définir la hauteur de la ligne, l'espace vertical entre les lignes de texte dans un élément. Elle influence la lisibilité du texte en ajoutant de l'espace au-dessus et en dessous des caractères.*/
+}
+
+body{
+    
+    margin: 70px 50px 70px 120px;
+
+}
+
+#premier_h2{   /*h2:first-of-type*/
+    font-size: 75%;
+}
+
+#premier_p{  /*p:first-of-type*/
+    font-size: 70%;
+}
+
+#deuxieme_p{    /*p:nth-of-type(2)*/
+    text-indent: 3em; /*l'espace ajouté au début d'un élément de texte, généralement pour décaler le texte vers la droite.*/
+}
+
+h1{
+    color: #ffffdd; 
+}
+
+h2 {
+    color: #966b72; 
+    font-family: Georgia; 
+}
+
+
+
+/* 
+Sélecteurs structurels :
+
+Utilisent la position des éléments dans le document pour appliquer les styles.
+Exemple : p:first-of-type cible le premier paragraphe parmi tous les paragraphes d'un conteneur.
+Inconvénients : Si l'ordre des éléments change, cela peut affecter l'application des styles.
+
+
+
+Sélecteurs d'ID :
+
+Utilisent des identifiants uniques pour cibler des éléments spécifiques.
+Exemple : #premier_h2 cible un <h2> ayant l'ID premier_h2.
+chaque ID est unique. Les styles restent applicables même si l'ordre des éléments change.
+
+*/
