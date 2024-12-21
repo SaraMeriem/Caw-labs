@@ -1,0 +1,104 @@
+/* Style global */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #74ebd5, #acb6e5);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #2d3436;
+}
+
+/* Conteneur principal */
+.app-container {
+  width: 90%;
+  max-width: 800px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Titres */
+h2 {
+  color: #6c5ce7;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #6c5ce7;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Paragraphe */
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #636e72;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Compteur */
+h1 {
+  font-size: 60px;
+  color: #00cec9;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+/* Boutons */
+button {
+  background: linear-gradient(to right, #6c5ce7, #74b9ff);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 15px 10px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0984e3, #74b9ff);
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1.05);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenu aligné au centre */
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Feedback stylé */
+.feedback {
+  font-size: 16px;
+  font-style: italic;
+  color: #e17055;
+  margin-top: 10px;
+}
+
+/* Animation fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
