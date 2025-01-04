@@ -1,0 +1,26 @@
+/* App.css */
+
+/* Style de fond pour la page de connexion */
+.bg-login {
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  /* Style de fond pour les autres pages après la connexion */
+  .bg-app {
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  /* Autres styles pour l'application */
+  .app-logo {
+    width: 100px;
+   
+  }
+  

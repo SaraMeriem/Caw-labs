@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&family=Poppins:ital,wght@400;600;700&display=swap');
+/* Main container for the form and transaction list */
+.transaction-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  /* Styling for the form */
+  .transaction-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgba(99, 94, 94, 0.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #893030;
+    border-radius: 20px;
+
+  }
+  
+  .transaction-form h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #d31f6a;
+    font-family: 'Playwrite GB S Guides', serif;
+  }
+  
+  /* Styling for input fields, selects, and textareas */
+  .transaction-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .transaction-form input,
+  .transaction-form select,
+  .transaction-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #be5555;
+    border-radius: 14px;
+    font-size: 12px;
+  }
+  
+  .transaction-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Buttons for selecting Income or Expense */
+  .transaction-type-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-type-buttons button {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transaction-type-buttons .active {
+    background-color:  #be5555;
+    color: white;
+  }
+  
+  .transaction-type-buttons button:hover {
+    background-color:  #d31f6a;
+  }
+  
+  /* Styling for Submit and Cancel Edit buttons */
+.transaction-form button[type="submit"],
+.transaction-form button.cancel-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 40px;
+  background-color: #d31f6a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2px;
+}
+
+/* Hover effect for both buttons */
+.transaction-form button[type="submit"]:hover,
+.transaction-form button.cancel-button:hover {
+  background-color: #be5555;
+}
+
+  
+ 
+  /* Styling for the transaction table */
+  .transaction-list h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #d31f6a;
+    font-family: 'Playwrite GB S Guides', serif;
+  }
+.transaction-table {
+    width: 100%;
+    border-radius: 20px;
+    border-collapse: separate;
+    margin-top: 20px;
+    border: 2px solid rgba(99, 94, 94, 0.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+  }
+  .transaction-list div {
+    display: flex;
+    justify-content: flex-end; /* Aligne les éléments à droite */
+    align-items: center; /* Aligne le contenu verticalement au centre */
+    margin-bottom: 15px; /* Espacement sous l'élément */
+  }
+  
+  .transaction-list label {
+    margin-right: 10px; /* Espacement entre le label et le select */
+    color: #893030;
+    font-size: 14px;
+  }
+  
+  .transaction-list select {
+    padding: 5px; /* Améliore l'apparence du select */
+    font-size: 12px; /* Taille du texte dans le select */
+  }
+  
+  
+  .transaction-table th,
+  .transaction-table td {
+    padding: 12px;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+  }
+  
+  .transaction-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .transaction-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .transaction-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .transaction-table button {
+    padding: 6px 10px;
+    background-color:  #d31f6a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+  }
+  
+  .transaction-table button:hover {
+    background-color: #2980b9;
+  }
+  
+  .transaction-table button:last-child {
+    background-color:  #d31f6a;
+  }
+  
+  .transaction-table button:last-child:hover {
+    background-color: #2980b9;
+  }
+  .separator {
+    border-top: 1px solid var(--border-color);
+    max-width: 40%;
+    margin: 72px auto 56px;
+}
+
+/* Styling for the export PDF button */
+.export-pdf-button {
+  padding: 8px 12px;
+  background-color: #d31f6a;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+}
+
+.export-pdf-button:hover {
+  background-color: #be5555;
+}
